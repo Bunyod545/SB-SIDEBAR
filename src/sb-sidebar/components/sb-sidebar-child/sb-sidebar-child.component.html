@@ -1,0 +1,4 @@
+<div class="child-content" (click)="contentClick($event)">
+    <span class="child-text">{{title}}</span>
+    <i *ngIf="isHasChild" [class]="'child-next-icon  ' + headerNextIconClass"></i>
+</div>

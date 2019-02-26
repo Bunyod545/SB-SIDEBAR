@@ -1,0 +1,31 @@
+.child-content {
+    height: 45px;
+    font-size: 16px;
+    font-family: Arial,sans-serif;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.child-content:hover {
+    background-color: rgba(0, 0, 0, .03);
+}
+
+.child-text {
+    padding-top: 15px;
+    padding-left: 20px;
+    position: absolute;
+    user-select: none;
+    -ms-user-select: none; 
+    -moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -webkit-touch-callout: none; 
+}
+
+.child-next-icon {
+    padding-top: 15px;
+    color: rgba(0, 0, 0, 0.3);
+    right: 20px;
+    position: absolute;
+    font-size: 20px;
+}

@@ -1,0 +1,15 @@
+.header {
+    position: fixed;
+    background-color: blue;
+    height: 70px;
+    width: 100%;
+}
+
+.sidebar {
+  height: 100%;
+  width: 400px;
+  position: fixed;
+  background-color: white;
+  margin-top: 70px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}

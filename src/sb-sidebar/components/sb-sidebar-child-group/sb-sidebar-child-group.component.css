@@ -1,0 +1,22 @@
+.sidebar-child-container {
+    width: calc(100% - 60px);
+    height: 100%;
+    position: absolute;
+    background-color: white;
+    top: 50px;
+    left: 60px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    animation-name: move-left;
+    animation-duration: 0.7s;
+}
+
+@keyframes move-left {
+    0%   { left: 100%; }
+    100% { left: 60px; }
+}
+
+@keyframes move-right {
+    0%   { left: 60px; }
+    100% { left: 100%; }
+}

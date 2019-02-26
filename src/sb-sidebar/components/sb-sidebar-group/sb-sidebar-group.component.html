@@ -1,0 +1,7 @@
+<div class="group-title" *ngIf="isShowGroupTitle">
+    <div class="group-title-line">
+        {{group.groupTitle}}
+    </div>
+</div>
+
+<sb-sidebar-item *ngFor="let item of items" [item]="item" [owner]="owner"></sb-sidebar-item>

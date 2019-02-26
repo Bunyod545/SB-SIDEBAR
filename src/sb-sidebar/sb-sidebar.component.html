@@ -1,0 +1,11 @@
+<div class="sidebar-content">
+    <div class="sidebar-header" [class.clickable]="isShowChild" (click)="sidebarHeaderClick()">
+        <i *ngIf="isShowChild" [class]="headerPreviewIconClass"></i>
+        <div class="sidebar-header-title">{{headerTitle}}</div>
+    </div>
+
+    <div class="sidebar-groups-container" (click)="groupsContainerClick()">
+        <sb-sidebar-group *ngFor="let group of groups" [group]="group" [owner]="this"></sb-sidebar-group>
+    </div>
+    <template #content></template>
+</div>

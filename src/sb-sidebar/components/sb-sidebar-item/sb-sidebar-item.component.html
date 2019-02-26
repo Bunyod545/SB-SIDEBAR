@@ -1,0 +1,8 @@
+<div class="item-content" (click)="contentClick($event)">
+    <i [class]="'item-icon ' + iconClass" [style.color]="isShowChild ? '#D1D1D1' : '#4bb5ef'"></i>
+
+    <div class="line-content">
+        <span class="item-text">{{title}}</span>
+        <i *ngIf="isHasChild" [class]="'item-next-icon  ' + headerNextIconClass"></i>
+    </div>
+</div>
